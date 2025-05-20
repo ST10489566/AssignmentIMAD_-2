@@ -15,17 +15,14 @@ class quizScreen : AppCompatActivity() {
 
 
 
-            val Quiz = arrayOf("Q 1: Fish can blink",
-                                "Q 2: Hippos sweat a red substance",
-                                "Q 3: An Octopus has three hearts",
-                                "Q 4: A lions's roar can travel up to eight kilometers",
+            val Quiz = arrayOf("Q 1: The great wall of China is the longest wall in history",
+                                "Q 2: Henry VIII had six wives",
+                                "Q 3: The Industrial Revolution began in the 18th century",
+                                "Q 4: The Enlightenment was a period of cultural and intellectual ferment that began in the 16th century",
                                 "Q 5: Cinderella is the first Disney princess")
 
-            val Answers = arrayOf(true,
-                                         true,
-                                         true,
-                                         true,
-                                         false  )
+            val Answers = arrayOf(true,true,true,false,false)
+
 
             var score = 0
 
