@@ -5,6 +5,40 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/assignment_2"
     tools:context=".reviewPage">
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="99dp"
+        android:layout_height="103dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/rtrnButton"
+        android:layout_width="184dp"
+        android:layout_height="80dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="550dp" />
+
+    <TextView
+        android:id="@+id/ReviewTextView"
+        android:layout_width="236dp"
+        android:layout_height="92dp"
+        android:text="TextView"
+        android:textColor="#F8F4F4"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="55dp" />
+
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="74dp"
+        android:layout_height="65dp"
+        android:text="TextView"
+        android:textColor="#FBF8F8"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="208dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
