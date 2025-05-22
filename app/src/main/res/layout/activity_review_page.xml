@@ -9,36 +9,64 @@
     tools:context=".reviewPage">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/extButton"
         android:layout_width="99dp"
         android:layout_height="103dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="177dp"
-        tools:layout_editor_absoluteY="342dp" />
+        android:layout_marginStart="179dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="202dp"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/rtrnButton"
         android:layout_width="184dp"
         android:layout_height="80dp"
-        android:text="Button"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="550dp" />
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="340dp"
+        android:text="Try Agian"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/ReviewTextView"
         android:layout_width="236dp"
         android:layout_height="92dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="59dp"
+        android:layout_marginBottom="584dp"
         android:text="TextView"
         android:textColor="#F8F4F4"
-        tools:layout_editor_absoluteX="116dp"
-        tools:layout_editor_absoluteY="55dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/scoreTextView"
         android:layout_width="74dp"
         android:layout_height="65dp"
+        android:layout_marginStart="186dp"
+        android:layout_marginTop="208dp"
+        android:layout_marginEnd="151dp"
+        android:layout_marginBottom="458dp"
         android:text="TextView"
         android:textColor="#FBF8F8"
-        tools:layout_editor_absoluteX="186dp"
-        tools:layout_editor_absoluteY="208dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

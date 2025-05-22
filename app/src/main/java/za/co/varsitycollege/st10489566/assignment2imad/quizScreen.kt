@@ -16,7 +16,6 @@ class quizScreen : AppCompatActivity() {
     private lateinit var quizTextView: TextView
     private lateinit var trueButton: Button
     private lateinit var falseButton: Button
-    private lateinit var nextButton: Button
     private lateinit var rstButton: Button
 
      val quiz = arrayOf(
@@ -42,7 +41,6 @@ class quizScreen : AppCompatActivity() {
         quizTextView = findViewById(R.id.quizTextView)
         trueButton = findViewById(R.id.trueButton)
         falseButton = findViewById(R.id.falseButton)
-        nextButton = findViewById(R.id.nextButton)
         rstButton = findViewById(R.id.rstButton)
 
         showQuiz()
@@ -55,9 +53,7 @@ class quizScreen : AppCompatActivity() {
             checkAnswer(false)
         }
 
-        nextButton.setOnClickListener {
-            nextQuestion()
-        }
+
 
         rstButton.setOnClickListener {
             resetQuiz()

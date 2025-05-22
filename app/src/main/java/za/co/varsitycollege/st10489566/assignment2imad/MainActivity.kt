@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         startButton.setOnClickListener{
             Toast.makeText(
                 this@MainActivity,
-                "Flash cards started",Toast.LENGTH_LONG
+                "Quiz started",Toast.LENGTH_LONG
             ).show()
 
             val intent = Intent(this, quizScreen::class.java)
