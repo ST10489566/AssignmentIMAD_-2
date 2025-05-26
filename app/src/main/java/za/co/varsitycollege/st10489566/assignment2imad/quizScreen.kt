@@ -85,7 +85,7 @@ class quizScreen : AppCompatActivity() {
         trueButton.isEnabled = false
         falseButton.isEnabled = false
 
-        // Move to next question after 1 second
+        // Move to next question after answered
         handler.postDelayed({
             nextQuestion()
         }, 1000)
@@ -97,7 +97,7 @@ class quizScreen : AppCompatActivity() {
         if (currentQuestionIndex < quiz.size) {
             showQuiz()
         } else {
-            // Quiz finished
+            // Quiz finished message
             val intent = Intent(this, reviewPage::class.java)
             intent.putExtra("Score", score)
             startActivity(intent)
